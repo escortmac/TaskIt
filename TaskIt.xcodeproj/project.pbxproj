@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F10BD751AC54513003E32FF /* DetailTacheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F10BD741AC54513003E32FF /* DetailTacheViewController.swift */; };
+		7F33A8C91AC55AED0047CE77 /* TachesModele.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F33A8C81AC55AED0047CE77 /* TachesModele.swift */; };
+		7F5964DB1AC56B2500F3D153 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5964DA1AC56B2500F3D153 /* Date.swift */; };
+		7F5964DD1AC5761B00F3D153 /* AjoutTacheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5964DC1AC5761B00F3D153 /* AjoutTacheViewController.swift */; };
 		7F63F9921AC2A6B1004FF3CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F63F9911AC2A6B1004FF3CE /* AppDelegate.swift */; };
 		7F63F9941AC2A6B1004FF3CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F63F9931AC2A6B1004FF3CE /* ViewController.swift */; };
 		7F63F9971AC2A6B1004FF3CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F63F9951AC2A6B1004FF3CE /* Main.storyboard */; };
 		7F63F9991AC2A6B1004FF3CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F63F9981AC2A6B1004FF3CE /* Images.xcassets */; };
 		7F63F99C1AC2A6B1004FF3CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F63F99A1AC2A6B1004FF3CE /* LaunchScreen.xib */; };
 		7F63F9A81AC2A6B1004FF3CE /* TaskItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F63F9A71AC2A6B1004FF3CE /* TaskItTests.swift */; };
+		7F63F9B21AC2C2B4004FF3CE /* TachesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F63F9B11AC2C2B4004FF3CE /* TachesCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F10BD741AC54513003E32FF /* DetailTacheViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTacheViewController.swift; sourceTree = "<group>"; };
+		7F33A8C81AC55AED0047CE77 /* TachesModele.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TachesModele.swift; sourceTree = "<group>"; };
+		7F5964DA1AC56B2500F3D153 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		7F5964DC1AC5761B00F3D153 /* AjoutTacheViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AjoutTacheViewController.swift; sourceTree = "<group>"; };
 		7F63F98C1AC2A6B1004FF3CE /* TaskIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F63F9901AC2A6B1004FF3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F63F9911AC2A6B1004FF3CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +45,7 @@
 		7F63F9A11AC2A6B1004FF3CE /* TaskItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F63F9A61AC2A6B1004FF3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F63F9A71AC2A6B1004FF3CE /* TaskItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItTests.swift; sourceTree = "<group>"; };
+		7F63F9B11AC2C2B4004FF3CE /* TachesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TachesCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,11 @@
 				7F63F9911AC2A6B1004FF3CE /* AppDelegate.swift */,
 				7F63F9931AC2A6B1004FF3CE /* ViewController.swift */,
 				7F63F9951AC2A6B1004FF3CE /* Main.storyboard */,
+				7F10BD741AC54513003E32FF /* DetailTacheViewController.swift */,
+				7F5964DC1AC5761B00F3D153 /* AjoutTacheViewController.swift */,
+				7F63F9B11AC2C2B4004FF3CE /* TachesCell.swift */,
+				7F33A8C81AC55AED0047CE77 /* TachesModele.swift */,
+				7F5964DA1AC56B2500F3D153 /* Date.swift */,
 				7F63F9981AC2A6B1004FF3CE /* Images.xcassets */,
 				7F63F99A1AC2A6B1004FF3CE /* LaunchScreen.xib */,
 				7F63F98F1AC2A6B1004FF3CE /* Supporting Files */,
@@ -212,8 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F33A8C91AC55AED0047CE77 /* TachesModele.swift in Sources */,
+				7F5964DB1AC56B2500F3D153 /* Date.swift in Sources */,
+				7F5964DD1AC5761B00F3D153 /* AjoutTacheViewController.swift in Sources */,
 				7F63F9941AC2A6B1004FF3CE /* ViewController.swift in Sources */,
+				7F10BD751AC54513003E32FF /* DetailTacheViewController.swift in Sources */,
 				7F63F9921AC2A6B1004FF3CE /* AppDelegate.swift in Sources */,
+				7F63F9B21AC2C2B4004FF3CE /* TachesCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +427,7 @@
 				7F63F9AD1AC2A6B1004FF3CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F63F9AE1AC2A6B1004FF3CE /* Build configuration list for PBXNativeTarget "TaskItTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +436,7 @@
 				7F63F9B01AC2A6B1004FF3CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
